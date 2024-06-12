@@ -8,6 +8,6 @@ dbConection();
 app.use(cors());
 app.use("/api/v1", stockRouter);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("start server in http://localhost:3000");
 });
