@@ -1,0 +1,34 @@
+{
+  "name": "backend-tpintegrador-gestordestock",
+  "version": "1.0.0",
+  "description": "Esta es una api, la cual es la segunda entrega de backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mat-hub-byte/backend-TPintegrador-GestordeStock.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "mongoDB",
+    "javaScript",
+    "node",
+    "js"
+  ],
+  "author": "grupo 7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mat-hub-byte/backend-TPintegrador-GestordeStock/issues"
+  },
+  "homepage": "https://github.com/Mat-hub-byte/backend-TPintegrador-GestordeStock#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
+  }
+}
