@@ -31,10 +31,6 @@ Repositorio para el backend del trabajo integrador, materias Frontend y Backend.
 
 - [Jesus Parales ](https://github.com/JAPA24)
 
-
-- [Marina tissera ](https://github.com/marina481)
-
-
 - [ Gabriel vega ](https://github.com/gabi-10)
 
 
