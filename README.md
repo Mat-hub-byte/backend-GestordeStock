@@ -15,7 +15,7 @@ Repositorio para el backend del trabajo integrador, materias Frontend y Backend.
 
 [Mongo DB](https://www.mongodb.com/es)
 
-[expres](https://expressjs.com/es/)
+[Express](https://expressjs.com/es/)
 
 
 [Docs Mongoose](https://mongoosejs.com/docs/)
@@ -25,13 +25,13 @@ Repositorio para el backend del trabajo integrador, materias Frontend y Backend.
 
 ## Autores
 
-- [Joskeiner simosa ](https://www.github.com/octokatherine)
+- [Joskeiner Simosa](https://www.github.com/octokatherine)
 
 - [Matias Gonzalez](https://github.com/Mat-hub-byte)
 
-- [Jesus Parales ](https://github.com/JAPA24)
+- [Jesus Parales](https://github.com/JAPA24)
 
-- [ Gabriel vega ](https://github.com/gabi-10)
+- [Gabriel Vega](https://github.com/gabi-10)
 
 
 ## Variable de entrorno 
