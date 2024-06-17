@@ -1,15 +1,18 @@
 const mongoose = require("mongoose");
 
-//conexion con la base de datos
+/**
+ * Esta función establece una conexión con la base de datos MongoDB.
+ * Utiliza el ODM  Mongoose para conectarse a la base de datos.
+ */
 const dbConection = async () => {
   try {
     await mongoose.connect(process.env.URL);
-    console.log("DB connect....");
+    console.log("BD conectando...");
   } catch (err) {
     console.error(err);
   }
-};
+}; 
 
 
-//destructuring 
+ 
 module.exports = { dbConection };

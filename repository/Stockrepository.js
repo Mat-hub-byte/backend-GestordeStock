@@ -6,7 +6,7 @@ exports.create = async (stockModel) => {
     let newStock = await stock.persistence.create(stockModel);
     return newStock;
   } catch (err) {
-    console.log(err);
+    console.log(err)
   }
 };
 // obtener
