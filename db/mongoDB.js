@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//conexion con la base de datos
 const dbConection = async () => {
   try {
     await mongoose.connect(process.env.URL);
@@ -9,4 +10,6 @@ const dbConection = async () => {
   }
 };
 
+
+//destructuring 
 module.exports = { dbConection };
