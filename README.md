@@ -31,7 +31,6 @@ Repositorio para el backend del trabajo integrador, materias Frontend y Backend.
 
 - [Jesus Parales](https://github.com/JAPA24)
 
-- [Gabriel Vega](https://github.com/gabi-10)
 
 
 ## Variable de entrorno 
