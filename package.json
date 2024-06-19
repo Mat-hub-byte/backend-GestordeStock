@@ -4,7 +4,8 @@
   "description": "Esta es una api, la cual es la segunda entrega de backend",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,9 @@
     "express-validator": "^7.1.0",
     "mongodb": "^6.7.0",
     "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.3"
   }
 }

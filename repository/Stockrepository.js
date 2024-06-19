@@ -64,3 +64,18 @@ exports.Update = async (id, stockUpdate) => {
     console.log(err);
   }
 };
+
+/**
+ * Obtiene un registro de stock de la base de datos por su ID.
+ * @param {string} id - El ID del registro de stock a obtener.
+ * @returns {Object} - El registro de stock encontrado.
+ */
+exports.GetById = async (id) => {
+  try {
+    let idObject = stock.stringToObjectId(id);
+    let stockById = await stock.persistence.findById(idObject);
+    return stockById;
+  } catch (err) {
+    console.log(err);
+  }
+};

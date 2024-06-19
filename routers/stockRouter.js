@@ -8,6 +8,7 @@ const {
   Update,
   Delete,
   GetAll,
+  GetById
 } = require("../controller/stockController.js");
 
 // Middleware para parsear el cuerpo de las solicitudes como JSON
@@ -36,5 +37,11 @@ stockRouter.delete("/:id", Delete);
  * Aplica el middleware `validator` para validar la solicitud antes de llamar a la función `Update`.
  */
 stockRouter.put("/:id", validator, Update);
+
+/**
+ * Ruta para obtener un registro de stock por su ID.
+ * Llama a la función GetById para manejar la solicitud.
+ */
+stockRouter.get("/:id", GetById);
 
 module.exports = stockRouter;

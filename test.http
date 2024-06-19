@@ -1,0 +1,36 @@
+### Create (crea un nuevo producto)
+POST http://localhost:3000/api/v1/
+Content-Type: application/json
+
+{
+    "name": "mouse gamer",
+    "price": 11,
+    "description": "Mouse para jugar al cs go",
+    "category": 1,
+    "image": "https://maxitec.vteximg.com.br/arquivos/ids/191776-1000-1000/maxitec-logitech-mouse-gamer-logitech-g305-inalambrico-910-005281-1.jpg?v=638304368950900000",
+    "amount": 8
+}
+
+### Update (modifica un producto)
+PUT http://localhost:3000/api/v1/6672ea201f88dd5c8aeddadb/
+Content-Type: application/json
+
+{
+    "name": "Mouse-LIMITED",
+    "price": 1000,
+    "description": "Mouse para jugar TODOS LOS JUEGOS",
+    "category": 1,
+    "image": "https://maxitec.vteximg.com.br/arquivos/ids/191776-1000-1000/maxitec-logitech-mouse-gamer-logitech-g305-inalambrico-910-005281-1.jpg?v=638304368950900000",
+    "amount": 1
+}
+
+### GetAll (muestra todos los productos de la bd) 
+GET http://localhost:3000/api/v1/todos HTTP/1.1
+
+
+### GetById (busca un producto por id y lo muestra)
+GET http://localhost:3000/api/v1/6670fe805297f9a0674010a3/ HTTP/1.1
+
+
+### Delete (elimina un producto)
+DELETE  http://localhost:3000/api/v1/6672ea201f88dd5c8aeddadb/ HTTP/1.1

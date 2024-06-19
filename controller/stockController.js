@@ -3,6 +3,7 @@ const {
   GetAllStock,
   UpdateStock,
   DeleteStock,
+  GetStockById
 } = require("../services/StockService");
 
 /**
@@ -74,3 +75,22 @@ exports.Delete = async (req, res) => {
     res.status(500).send("500: Error Interno del Servidor :(");
   }
 };
+
+/**
+ * Exportación del método GetById que maneja la obtención de un registro de stock por ID.
+ */
+exports.GetById = async (req, res) => {
+  try {
+    let id = req.params.id;
+    let stock = await GetStockById(id);
+    if (!stock) {
+      res.status(404).send("404: No se encontró el producto en el stock");
+    } else {
+      res.status(200).send(stock);
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("500: Error Interno del Servidor :(");
+  }
+};
+
