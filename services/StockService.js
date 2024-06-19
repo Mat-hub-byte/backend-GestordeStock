@@ -80,3 +80,16 @@ exports.UpdateStock = async (id, stock) => {
     console.log(err);
   }
 };
+
+/**
+ * Obtiene un stock de la base de datos por ID.
+ * @param {string} id - El ID del stock a buscar
+ * @returns {Object} - El stock encontrado.
+ */
+exports.GetStockById = async (id) => {
+  try {
+    return Stockrepository.GetById(id);
+  } catch (err) {
+    console.log(err);
+  }
+};

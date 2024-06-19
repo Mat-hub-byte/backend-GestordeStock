@@ -25,5 +25,5 @@ app.use("/api/v1", stockRouter);
  * Una vez iniciado, imprime un mensaje en la consola indicando que el servidor está en funcionamiento.
  */
 app.listen(process.env.PORT, () => {
-  console.log(" servidor iniciado en http://localhost:3000");
+  console.log( `servidor iniciado en: ${process.env.PORT}` );
 });
