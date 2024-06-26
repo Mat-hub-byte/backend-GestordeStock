@@ -25,7 +25,7 @@ Repositorio para el backend del trabajo integrador, materias Frontend y Backend.
 
 ## Autores
 
-- [Joskeiner Simosa](https://www.github.com/octokatherine)
+- [Joskeiner Simosa](https://www.github.com/joskeiner)
 
 - [Matias Gonzalez](https://github.com/Mat-hub-byte)
 
